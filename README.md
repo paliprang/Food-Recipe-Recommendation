@@ -22,10 +22,12 @@
 - การควบคุมค่าสุ่ม (Random Seed): มีการกำหนดค่า random_state=42 ในขั้นตอนการสุ่มเลือกผู้ใช้ 1,000 คน  เพื่อให้การรันซ้ำในทุกครั้งได้ผลลัพธ์ตรงกัน
 
 ## วิธีการรันโค้ด (How to Run)
-1. ดาวน์โหลดไฟล์ G009_FoodRecipe_RecommendationSystem.ipynb และไฟล์ข้อมูล recipes.csv และ reviews.csv จาก Repository นี้
-2. เปิดเว็บไซต์ Google Colab ([https://colab.research.google.com/](https://colab.research.google.com/)) และอัปโหลดไฟล์ G009_FoodRecipe_RecommendationSystem.ipynb เข้าสู่ระบบ
-3. คลิกที่ไอคอนรูปโฟลเดอร์ (Files) บนแถบเมนูด้านซ้ายมือ แล้วอัปโหลดไฟล์ recipes.csv และ reviews.csv ลงไปในหน้าหลัก
-4. กดที่เมนูด้านบนเลือก Runtime > Run all เพื่อรันโค้ดทั้งหมดตั้งแต่ต้นจนจบ
+1. ดาวน์โหลดไฟล์ G009_FoodRecipe_RecommendationSystem.ipynb จาก Repository นี้
+2. ดาวน์โหลดชุดข้อมูลจาก Kaggle (https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews) และแตกไฟล์ `.zip` เพื่อนำไฟล์ `recipes.csv` และ `reviews.csv` ออกมา
+3. เปิดเว็บไซต์ **Google Colab** ([https://colab.research.google.com/](https://colab.research.google.com/)) และอัปโหลดไฟล์ G009_FoodRecipe_RecommendationSystem.ipynb เข้าสู่ระบบ
+4. คลิกที่ไอคอนรูปโฟลเดอร์ (Files) บนแถบเมนูด้านซ้ายมือ แล้วอัปโหลดไฟล์ recipes.csv และ reviews.csv ลงไปในหน้าหลัก
+5. กดที่เมนูด้านบนเลือก **`Runtime` > `Run all`** เพื่อรันโค้ดทั้งหมดตั้งแต่ต้นจนจบ
+
 
 ## 📊 ผลลัพธ์การทดลอง (Experimental Results)
 จากการทดสอบด้วยโมเดล [ใส่ชื่อโมเดล เช่น Random Forest / XGBoost / CNN] ได้ผลลัพธ์ดังนี้:
